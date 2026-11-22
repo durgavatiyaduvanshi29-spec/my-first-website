@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<title>COLLEGE EVENT</title>
+<style>
+*{
+margin:7;
+padding:5;
+box-sizing: border-box;
+font -family: Arial,
+sans-serif;
+}
+body{
+background:#f5f7ff;
+color:#222;
+}
+/* navbar*/
+nav{
+background:#241545c;
+padding:18px 8%
+display:flex;
+justufy-content:
+space-between;
+align-items:center;
+}
+nav2 h2{
+color:white;
+}
+nav a{
+color:light green;
+text-decorations:none;
+margin-left:25px;
+font-weight:bold;
+}
+nav a :hover {
+color:#ffd166;
+}
+/*home*/
+.hero{
+min-height:250px;
+display:flex;
+justify-content:center
+align-items:center;
+text-align:center;
+padding:25px 12px;
+background:
+linear-gradient(135deg,#5b2cff,#a855f7);
+color:black;
+}
+.hero h1 {
+font-size:20px;
+margin-bottom:25px;
+}
+.hero p {
+font-size:30px;
+margin-bottom:55px;
+}
+.btn {
+display:inline-block;
+background:#ffd166;
+color:#222;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+}
+/*section*/
+section{
+padding:60px 10%;
+text-align:center;
+}
+section h2{
+color:#24145c;
+margin-bottom:25px;
+font-size:42px;
+}
+/*event cards*/
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+.card{
+background:white;
+width:250px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px #add;
+}
+.card h3 {
+color:#5bcff;
+margin-bottom :10px;
+}
+.card p{
+line-height:1.6;
+}
+/*countdown*/
+#countdown {
+front-size:23px;
+font-weight:bold;
+color:#e63946;
+margin-top:15px;
+}
+
+/*registration*/
+form{
+max-width:250px;
+margin:auto;
+background:white;
+padding:12px;
+border-radius:15px;
+box-shadow:0 5px 20px #ddd;
+}
+input,select {
+width:100%
+padding:12px;
+margin:10px; 0;
+border-radius:8px;
+}
+button{
+width:100%
+padding:12px;
+border:none
+border-radius:8px;
+background:#5b2cff;
+color:white;
+font-size:16px;
+cursor:poniter;
+}
+button:hover {
+background:#24145c;
+}
+/*footer*/
+footer {
+background:#24145c;
+color:white;
+text-align:center;
+padding:20px;
+@media(max-width:700px){
+nav{ 
+flex-direction:column;
+gap:15px;
+}
+nav a{
+margin:8px;
+}
+.hero h1{
+font-size:40px;
+}
+}
+</style>
+</head>
+<body>
+<!--navbar-->
+<nav>
+<h2>COLLEGE FEST</h2>
+<div>
+<a href="#home">HOME</a>
+<a href="#events">EVENTS</a>
+<a href="#schedule">SCHEDULE</a>
+<a href="#register">REGISTER</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
+<!--home-->
+<div class="hero"id="HOME">
+<div>
+<h1>collage fest 2026</h1>
+<p>celebrate.compete.create.connect</p>
+<a href="#register" class="btn">register now</a>
+</div>
+</div>
+<!--event details--->
+<section id="events">
+<h2><b><u>EVENT DETAILS</h2>
+<div class="cards">
+<h3>DATE</h3>
+<p>25 octobar 2026</p>
+</div>
+<div class="cards">
+<h3>TIME</h3>
+<p>10:00 AM-5:00 PM</p>
+</div>
+<div class="cards">
+<h3>VENUE</h3>
+<p>COLLEGE AUDITORIUM</p>
+</div>
+</div>
+</section>
+
+
+<!--events-->
+<section id="EVENTS">
+<h2>our events</h2>
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+<h3>TECHNICAL</h3>
+<p>quiz,coding competions and project exhibitions.</p>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+<h3>CULTURAL</h3>
+<p>dance,singing,drama;fasion show,</p>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+<h3>SPORTS</h3>
+<p>cricket,volleyball,chess and other comptitions</p>
+</div>
+    </div>
+  </div>
+</div></section>
+
+
+
+
+
+<!--
+<div class="row">
+<div class="col-3">
+<div class="card">
+<h3>TECHNICAL</h3>
+<p>quiz,coding competions and project exhibitions.</p>
+</div></div>
+<div class="col-3">
+<div class="card">
+<h3>CULTURAL</h3>
+<p>dance,singing,drama;fasion show,</p>
+</div></div>
+<div class="col-3">
+<div class="card">
+<h3>SPORTS</h3>
+<p>cricket,volleyball,chess and other comptitions</p>
+</div></div> 
+</div></section>-->
+<!---schedule-->
+<section id="SCHEDULE">
+<h2>event schedule</h2>
+<div class="card">
+
+<div class="card">
+<h3>10:00AM</H3>
+<p>OPENING CAREMONEY</p>
+</div>
+
+<div class="card">
+<h3>11:00AM</h3>
+<p>TECHNICAL EVENTS</p>
+</div>
+<div class="card">
+<h3>2:00AM</h3>
+<p>CULTURAL EVENTS</p>
+</div>
+<div class="card">
+<h3>4:30AM</h3>
+<p>PRIZE DISTRIBUTION</P>
+</div>
+</div>
+</section>
+
+
+<!--countdown-->
+<section>
+<h2><b><u>EVENTS COUNTDOWN</h2>
+<div id="countdown">loading.....</div>
+</selection>
+
+<!--registrations-->
+<section id="REGISTER">
+<h2>REGISTER NOW</h2>
+
+<form>
+<input type="text" id="name" placeholder="enter your NAME" required>
+<input type="text" id="BRANCH" placeholder="enter your branch" required>
+<input type="text" id="EMAIL" placeholder="enter your email" required>
+<select id="EVENT"required>
+<option>TECHNICAL</option>
+<option>CULTURAL</option>
+<option>SPORTS</option>
+
+</select>
+<button onclick="registerUser()">SUBMIT REGISTRATIONS</button>
+</form>
+</selection>
+
+<!--contact-->
+<section id="CONTACT">
+<h2>CONTACT US</h2>
+<p><b>EMAIL:</b>
+SISTEC-R.AC.IN@gmail.com</p>
+<p><b>PHONE:</b>+9718963612</P>
+<p><b>ADDRESS:</b> SAGAR INSTITUTE OF SCIENCE TECHNOLOGY AND RESARCH RATIBAD BHOPAL BHOPAL</p>
+</section>
+
+<!--footer-->
+<footer>
+<p>2026 COLLEGE FEST|ALL RIGHT RESERVED</p>
+</footer>
+<script>
+//coutdown
+
+let eventdate=new date("october 25,2026 10:00:00").get time();
+setinterval(function(){
+let now=new date().gettime();
+let distance=eventdate-now;
+let days=math.floor(distance/(1000*60*60*24);
+let hours=math.floor(distance % (1000*60*60*60*24))/(1000*60*60);
+let minutes=math.floor(distance % (1000*60*60*60))/(1000*60);
+let seconds=math.floor(distance%(1000*60))/1000);
+document.getElementryById("countdown").innerHTML=days+"days"=hours+"hours"+minutes+"minutes"+seconds+"seconds";
+},1000);
+
+//registrations
+function registerUser(){
+event.preventDefault();
+let name=document.getElementById("name").value;
+alert("thank you"+ name+"!your registration is successful");
+}
+</script>
+</body>
+</html>
+
+
